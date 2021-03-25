@@ -15,8 +15,9 @@
 
 body{
     font-family: 'Montserrat', sans-serif;
-    background-color: aliceblue; /* initial - maybe not */
-    
+    background-color: rgb(212, 246, 255); /* initial - maybe not */
+    color: rgb(48, 49, 59);
+    min-width: 1440px;
 }
 
 .container{
@@ -37,7 +38,7 @@ body{
 
 .left .right{
     line-height: 80px;
-    width: 50%;
+    width: 396.9px;
     float: left;
 }
 
@@ -69,7 +70,7 @@ body{
     border: 1px solid orangered;
     border-radius: 5px;
     margin-left: 20px;
-    margin-right: 10px;
+    margin-right: 20px;
     font-size: 12px;
     padding: 10px;
 }
@@ -77,26 +78,30 @@ body{
 .getfree{
     background-color: orangered;
     border-radius: 5px;
-    margin-left: 10px;
     padding: 10px;
     font-size: 12px;
     color: white;
+    width: fit-content;
 }
 
 
 /* second nav */
 .nav2{
     height: 70px;
-    background-color: cadetblue;
+    background-color: white;
 }
 
-.right ul li{
+.list{
+    line-height: 70px;
+}
+
+.list ul li{
     display: inline-block;
     list-style: none;
 }
 
 .logo{
-
+    /* where tf is this image*/
 }
 
 .uno{
@@ -115,8 +120,27 @@ body{
 /* hero image thing */
 .hero{
     height: 500px;
-    background-color: cyan;
+    background-image: url(../img/jumbotron.png);
+    background-position: center;
+    background-repeat: no-repeat;
 }
+
+.herotitle{
+    width: 35%;
+    margin-left: 15%;
+    padding-top: 50px;
+}
+
+.herotext{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.herobtn{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
 
 /****** main ******/
 .blueband{
@@ -140,6 +164,9 @@ body{
     height: 500px;
     background-color: blue;
 }
+
+
+
 
 .largeblue{
     height: 600px;
