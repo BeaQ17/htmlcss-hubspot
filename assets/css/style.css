@@ -179,10 +179,21 @@ a {
     border-bottom: 1px solid black;
 }
 
+/* rubik cube thing*/
 .better{
-    height: 300px;
-    background-color: cornflowerblue;
+    text-align: center;
+    margin: 60px 100px 50px 100px;
 }
+
+#cube{
+    width: 50%;
+}
+
+#power{
+    margin-bottom: 20px;
+}
+
+
 
 .upperbox{
     height: 300px;
