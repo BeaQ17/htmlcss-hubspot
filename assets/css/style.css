@@ -95,7 +95,7 @@ a {
     margin-right: 20px;
 }
 
-.getfree{
+.orange{
     background-color: #FE775A;
     color: white;
     width: fit-content;
@@ -137,8 +137,6 @@ a {
 .option{
     margin-left: 20px;
 }
-
-
 
 
 
@@ -194,12 +192,67 @@ a {
 }
 
 
-
-.upperbox{
+/* free hubspot crm */
+.box{
+    background-color: white;
+    border: 2px solid #E9EEF3;
+    border-radius: 10px;
     height: 300px;
-    background-color: darkblue;
+    margin-bottom: 50px;
 }
 
+.upper{
+    padding: 50px 70px;
+}
+
+#learnmore{
+    width: 25%;
+    margin-right: 70px; 
+    text-align: center;
+    display: inline-block;
+}
+
+#book{
+    width: 120px;
+    margin-bottom: 15px;
+}
+
+
+#learn{
+    margin: auto;
+}
+
+.crm{
+    display: inline-block;
+    width: 60%; 
+}
+
+.lorem{
+    margin-top: 20px;
+    margin-bottom: 18px;
+}
+
+#uppercase{
+    margin-bottom: 22px;
+}
+
+#uppercase::after{
+
+}
+
+.fa-check-circle{
+    color: #FE775A;
+    margin-left: 20px;
+    margin-right: 15px;
+}
+
+div.crm > i:first-of-type{
+    margin-left: 0;
+}
+
+
+
+/* services */
 .box3{
     height: 500px;
     background-color: blue;
