@@ -14,8 +14,8 @@
 /*** body and container ***/
 
 body{
-    font-family: 'Montserrat', sans-serif;
-    background-color: rgb(212, 246, 255); /* initial - maybe not */
+    font-family: 'Arial', sans-serif;
+    background-color: #F4F9FD;
     color: rgb(48, 49, 59);
     min-width: 1440px;
 }
@@ -25,61 +25,78 @@ body{
     margin: auto;
 }
 
+i{
+    margin-left: 7px;
+}
+
 
 /****** header ******/
 
 /* first nav */
+
 .nav1{
-    height: 80px;  
-    width: 100%;
-    overflow: hidden;
-    border-bottom: 1px solid black;
-}
-
-.left .right{
+    height: 80px;
     line-height: 80px;
-    width: 396.9px;
+}
+
+.left_m, .right_m{
     float: left;
+    width: 50%;
 }
 
-.right{
-    text-align: right;
+.left_m ul > li:first-child > a{
+    padding-right: 20px;
+    border-right: 2px solid rgb(48, 49, 59);
 }
 
-.left ul li{
-    display: inline-block;
-    list-style: none;
+.left_m ul > li:last-child > a{ /* <- I figured this one out on my own I promise*/
+    margin-left: 20px;
 }
 
-.right ul li{
-    display: inline-block;
-    list-style: none;
-    text-align: right;
-}
 
-#line{
+/*#line{     <-this had worked out but I don't trust it anymore
     width: 2px;
     background-color: grey;
     height: 20px;
     margin-left: 15px;
     margin-right: 15px;
+}*/ 
+
+.right_m{
+    text-align: right;
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(48, 49, 59);
+}
+
+.searchimg{
+    width: 17px;
+}
+
+
+.button{
+    font-size: 12px;
+    border-radius: 5px;
+    padding: 10px;
 }
 
 .login{
-    color: orangered;
-    border: 1px solid orangered;
-    border-radius: 5px;
+    border: 1px solid #FE775A;
+    background-color: white;
+    color: #FE775A;
     margin-left: 20px;
     margin-right: 20px;
-    font-size: 12px;
-    padding: 10px;
 }
 
 .getfree{
-    background-color: orangered;
-    border-radius: 5px;
-    padding: 10px;
-    font-size: 12px;
+    background-color: #FE775A;
     color: white;
     width: fit-content;
 }
@@ -87,30 +104,38 @@ body{
 
 /* second nav */
 .nav2{
-    height: 70px;
+    height: 80px;
     background-color: white;
 }
 
-.list{
-    line-height: 70px;
+.nav2 > div{
+    line-height: 80px;
 }
 
-.list ul li{
+.logo{
+    width: 20%;
+}
+
+#logoimg{
+    vertical-align: middle;
+}
+
+.main_menu{
+    width: 80%;
+    text-align: right;
+}
+
+.logo, .main_menu{
+    float: left;
+}
+
+.main_menu ul li{
     display: inline-block;
     list-style: none;
 }
 
-.logo{
-    /* where tf is this image*/
-}
-
-.uno{
-    margin-left: 5px;
-    margin-right: 5px;
-}
-
-.due{
-    margin-right: 2px;
+.option{
+    margin-left: 20px;
 }
 
 
@@ -123,6 +148,9 @@ body{
     background-image: url(../img/jumbotron.png);
     background-position: center;
     background-repeat: no-repeat;
+    width: 100%;
+    margin: 0;
+    background-color: #FFF4EF;
 }
 
 .herotitle{
@@ -137,15 +165,16 @@ body{
 }
 
 .herobtn{
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding: 15px 25px 15px 25px;
+    border-radius: 5px;
+    font-size: 13px;
 }
 
 
 /****** main ******/
 .blueband{
     height: 70px;
-    background-color: darkcyan;
+    background-color: #AFEBE4;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
 }
