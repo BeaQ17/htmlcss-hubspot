@@ -197,7 +197,6 @@ a {
     background-color: white;
     border: 2px solid #E9EEF3;
     border-radius: 10px;
-    height: 300px;
     margin-bottom: 50px;
 }
 
@@ -212,13 +211,13 @@ a {
     display: inline-block;
 }
 
-#book{
+.pics{
     width: 120px;
+    height: 120px;
     margin-bottom: 15px;
 }
 
-
-#learn{
+.learn{
     margin: auto;
 }
 
@@ -261,9 +260,32 @@ div.crm > i:first-of-type{
 
 /* services */
 .box3{
-    height: 500px;
-    background-color: blue;
+    float: left;
+    width: 31%;
+    
 }
+
+.cent{
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+.upcent{
+    text-align: center;
+    padding: 30px;
+}
+
+.desc{
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.more{
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+
+
 
 
 
