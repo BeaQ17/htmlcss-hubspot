@@ -209,6 +209,7 @@ a {
     margin-right: 70px; 
     text-align: center;
     display: inline-block;
+    float: left;
 }
 
 .pics{
@@ -224,6 +225,8 @@ a {
 .crm{
     display: inline-block;
     width: 70%; 
+    padding-top: 15px;
+    float: left;
 }
 
 .lorem{
@@ -293,7 +296,7 @@ div.crm > i:first-of-type{
 
 /* large gradient blue part*/
 .largeblue{
-    background-color: #00BBA7;
+    background: linear-gradient(90deg, #00A8BA 0%, #00BBA7 100%);;
     color: white;
     padding: 40px;
 }
@@ -302,8 +305,6 @@ div.crm > i:first-of-type{
     width: 60%;
     text-align: center;
 }
-
-.cards{}
 
 .square{
     float: left;
@@ -339,28 +340,106 @@ div.crm > i:first-of-type{
     padding-top: 25px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-.several{
-    height: 600px;
+/*** start growing today part ***/
+.bgw{
     background-color: white;
 }
 
-/****** footer ******/
-footer{
-    height: 500px;
-    background-color: turquoise;
+.white{
+    background-color: white;
+    padding: 30px;
 }
 
 
 
+/* lots of logos */
+.over{
+    width: 50%;
+    float: left;
+    padding: 0px 130px 0px 130px;
+}
 
+.lots{
+    width: 50%;
+    float: right;   
+}
+
+.lotsimg{
+    float: left;
+    padding: 0px 10px;
+    width: 25%;
+}
+
+.imgsize{
+    max-width: 100%;
+    height: 50px;
+    object-fit: contain;
+    object-position: center;
+}
+
+/* smiling woman */
+.start{
+    margin-top: 50px;
+}
+
+.start_title, .woman{
+    float: left;
+    width: 50%;
+}
+
+.woman{
+    background-image: url('../img/woman.webp');
+    background-position: right;
+    background-repeat: no-repeat;
+    height: 230px;
+    background-size: contain;
+}
+
+
+/****** footer ******/
+footer{
+    background-color: #32495B;
+    color: white;
+}
+
+.list1, .list2, .list3, .list4{
+    float: left;
+    width: 25%;
+    margin-top: 30px;
+}
+
+dt{
+    margin-bottom: 15px;
+}
+
+.support{
+    background-color: white;
+    color: #32495B;
+    width: fit-content;
+    margin: 15px 0px 15px 0px;
+}
+
+.social{
+    margin: 6px;
+}
+
+/* down footer*/
+.lang{
+    margin-top: 100px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.downf{
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+
+.wlogo, .legalstuff{
+    width: 50%;
+    float: left;
+}
+
+.legalstuff{
+    text-align: right;
+}
