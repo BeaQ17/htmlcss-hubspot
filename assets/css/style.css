@@ -144,7 +144,7 @@ a {
 .hero{
     height: 500px;
     background-image: url(../img/jumbotron.png);
-    background-position: center;
+    background-position: center right;
     background-repeat: no-repeat;
     width: 100%;
     margin: 0;
@@ -227,8 +227,8 @@ a {
 }
 
 .lorem{
-    margin-top: 20px;
-    margin-bottom: 18px;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 #uppercase{
@@ -285,15 +285,70 @@ div.crm > i:first-of-type{
     margin-bottom: 15px;
 }
 
-
-
-
-
-
-.largeblue{
-    height: 600px;
-    background-color: blueviolet;
+.checkservices{
+    margin: 10px;
 }
+
+
+
+/* large gradient blue part*/
+.largeblue{
+    background-color: #00BBA7;
+    color: white;
+    padding: 40px;
+}
+
+.lgblue{
+    width: 60%;
+    text-align: center;
+}
+
+.cards{}
+
+.square{
+    float: left;
+    width: 200px;
+    text-align: center;
+    padding: 15px;
+}
+
+.bordertop_l{
+    border-left: 2px solid white;
+    border-right: 1px solid white;
+}
+
+.bordertop_r{
+    border-left: 1px solid white;
+    border-right: 2px solid white;
+}
+
+.b_row{
+    border-top: 2px solid white;;
+}
+
+.num{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.small{
+    font-size: 12px;
+}
+
+#growthlast{
+    padding-top: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 .several{
     height: 600px;
@@ -305,4 +360,7 @@ footer{
     height: 500px;
     background-color: turquoise;
 }
+
+
+
 
