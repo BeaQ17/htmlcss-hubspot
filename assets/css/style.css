@@ -37,6 +37,7 @@ i{
 .nav1{
     height: 80px;
     line-height: 80px;
+    border-bottom: 1px solid black;
 }
 
 .left_m, .right_m{
@@ -142,19 +143,35 @@ a {
 
 /* hero image thing */
 .hero{
-    height: 500px;
+    height: 700px;
     background-image: url(../img/jumbotron.png);
-    background-position: center right;
+    background-position: top right;
     background-repeat: no-repeat;
     width: 100%;
     margin: 0;
     background-color: #FFF4EF;
+    position: relative;
+}
+
+.blueband{
+    position: absolute;
+    bottom: 0;
+    height: 90px;
+    width: 100%;
+    background-color: #AFEBE4;
+    border-top: 3px solid #2B3F54;
+    border-bottom: 3px solid #2B3F54;
 }
 
 .herotitle{
     width: 35%;
     margin-left: 15%;
     padding-top: 50px;
+    
+}
+
+#herotitlesize{
+    font-size: 45px;
 }
 
 .herotext{
@@ -170,12 +187,6 @@ a {
 
 
 /****** main ******/
-.blueband{
-    height: 70px;
-    background-color: #AFEBE4;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
-}
 
 /* rubik cube thing*/
 .better{
@@ -184,7 +195,7 @@ a {
 }
 
 #cube{
-    width: 50%;
+    width: 30%;
 }
 
 #power{
@@ -232,6 +243,8 @@ a {
 .lorem{
     margin-top: 25px;
     margin-bottom: 25px;
+    line-height: 20pt;
+    color: rgb(48, 49, 59);
 }
 
 #uppercase{
@@ -269,8 +282,8 @@ div.crm > i:first-of-type{
 }
 
 .cent{
-    margin-left: 35px;
-    margin-right: 35px;
+    margin-left: 34px;
+    margin-right: 34px;
 }
 
 .upcent{
@@ -299,6 +312,13 @@ div.crm > i:first-of-type{
     background: linear-gradient(90deg, #00A8BA 0%, #00BBA7 100%);;
     color: white;
     padding: 40px;
+}
+
+.lorem_w{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    line-height: 20pt;
+    color: white;
 }
 
 .lgblue{
@@ -362,6 +382,7 @@ div.crm > i:first-of-type{
 .lots{
     width: 50%;
     float: right;   
+    padding-bottom: 20px;
 }
 
 .lotsimg{
@@ -410,6 +431,10 @@ footer{
 
 dt{
     margin-bottom: 15px;
+}
+
+dd{
+    line-height: 20pt;
 }
 
 .support{
